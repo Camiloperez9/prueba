@@ -30,7 +30,7 @@ class personitaController extends Controller
         $persona -> nombre = $request -> post("nombre");
         $persona -> apellido = $request -> post("apellido");
         $persona -> telefono = $request -> post("telefono");
-        
+
         $persona -> save();
 
         return $persona;
